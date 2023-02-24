@@ -48,7 +48,7 @@ export const WalletProvider: React.FC<{ children: ReactNode }> = ({
       }
 
       const _wallet = new BeaconWallet({
-        name: 'GFT',
+        name: 'Zombie',
         preferredNetwork: networkType,
         disableDefaultEvents: true, // Disable all events / UI. This also disables the pairing alert.
         eventHandlers: {
